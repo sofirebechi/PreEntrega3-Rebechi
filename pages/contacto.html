@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IMI integración</title>
+    <link rel="shortcut icon" href="../img/logo.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="../css/estilo.css">
+    
+</head>
+<body>
+    <nav id="boton">
+        <button id="logueo">INICIAR SESIÓN</button>  
+    </nav>
+    <!-- Encabezado de la pagina -->
+    <header class="cabecera">
+        <div id="logo" class="item"></div>
+        <div id="titulo" class="item"></div>
+    </header>      
+        <nav class="menu">
+            <ul class="nav">
+                <li> <a href="../index.html">INICIO </a>
+                        <ul class="submenu">
+                            <li><a href="../index.html#video">¿QUIÉNES SOMOS?</a></li>
+                            <li><a href="../index.html#galeria">GALERIA</a></li>
+                            <li><a href="../index.html#preguntas">PREGUNTAS FRECUENTES</a></li>
+                        </ul>
+                </li>
+                <li><a href="sucursales.html">SUCURSALES</a></li>
+                <li><a href="prestaciones.html">PRESTACIONES</a>
+                    <ul class="submenu">
+                        <li><a href="#">SERVICIOS</a></li>
+                        <li><a href="#">REQUISITOS</a></li>
+                        <li><a href="#">CONOCÉ NUESTRO EQUIPO</a></li>
+                    </ul>
+                </li>
+                <li><a href="turnos.html">TURNOS</a></li>
+                <li><a href="contacto.html">CONTACTO</a></li>
+                <li><a href="trabajaConNos.html">TRABAJÁ CON NOSOTROS</a></li>
+            </ul>
+        </nav>
+	<section class="contenedor">
+		<!-- Formulario de contacto -->
+        <h3 id="tituloForm">DEJANOS UN MENSAJE Y NOS PONDREMOS EN CONTACTO CONTIGO:</h3><br>
+		    <form action= "#" id="formu">
+		        <label for="nombre" aria-placeholder="Juan Perez"> Nombre y Apellido:
+                    <input type= "nombre">
+                </label> <br>
+                <label for="mail" aria-placeholder="juaperez@xxxx.com">E-mail:
+                    <input type="mail">
+                </label><br>
+                <label for="comentario"> Dejanos tu consulta: <br>
+                    <textarea name="coment" id="observaciones" cols="30" rows="10"></textarea>
+                </label> <br>
+                <input type="submit" value="ENVIAR" id="enviarForm">
+    </section>
+    <footer>
+        <p id="copyright">Copyright Sofía Rebechi</p>
+        <div class="redes">
+            <!--a href="facebook.com/InstitutoModeloInterdisciplinario/photos"--><i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-instagram"></i>
+            </div>
+    </footer>     
+  </body>
+</html>
